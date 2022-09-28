@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+input {
+    padding: 10px 30px;
+}
+
+.value {
+    color: red;
+    font-size: 20px;
+}
