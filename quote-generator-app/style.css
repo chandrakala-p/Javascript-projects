@@ -10,12 +10,18 @@ body {
 }
 
 .wrapper {
-    width: 400px;
+    /* width: 400px;
     position: absolute;
 
     transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
+    left: 50%;  or 
+    */
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
 
 }
 
