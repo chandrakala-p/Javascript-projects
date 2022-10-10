@@ -1,3 +1,39 @@
 * {
-    /* background-color: #ffb6c1; */
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7886c0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+#input {
+    padding: 10px 20px;
+}
+
+.btn {
+    margin-left: 10px;
+    padding: 11px 20px;
+    border: none;
+    color: #fff;
+    background-color: rgb(25, 140, 216);
+}
+
+.text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.light {
+    color: #ca3434;
 }

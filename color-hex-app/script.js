@@ -82,6 +82,6 @@ function colorToHex(color) {
 btn.addEventListener("click", () => {
     let hexvalue = colorToHex(input.value);
     // console.log(colorToHex(input.value))
-    text.innerText = "Hex code for the givin colour is " + hexvalue;
+    text.innerHTML = "Hex code for the givin colour is " + `<span class="light"> ${hexvalue} </span>`;
     // console.log(hexvalue)
 })
